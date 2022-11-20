@@ -49,18 +49,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-ul {
-    font-family: 'Poppins', sans-serif;
-}
-
-li {
-    list-style: circle;
-}
-
-.list {
-    list-style: square;
-}
-
 .topnav {
     background-color: var(--hc);
     overflow: hidden;
@@ -77,13 +65,11 @@ li {
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     background-color: var(--pink);
     color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
     background-color: #b57170;
     color: white;
